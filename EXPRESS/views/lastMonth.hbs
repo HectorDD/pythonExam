@@ -1,0 +1,33 @@
+<center>
+    <br>
+    <a href="/" class="btn btn-danger">Nueva Consulta</a><h4>Cliente: {{client}}</h4>
+    
+    <br>
+
+
+    <table width=85%>
+        <tr>
+            
+            <td><b>Creation Date</b></td>
+            <td><b>Order ID</b></td>
+            <td><b>Total $</b></td>
+            <td><b>Delivery Address</b></td>
+            <td><b>Products</b></td>
+            
+        </tr>
+        {{#each orderList}}
+        <tr>
+            <td>{{date}}</td>
+            <td>{{order_id}}</td>
+            <td>$ {{price}}</td>
+            <td>{{delivery_address}}</td>
+            <td>
+            {{#each this.products}}
+                {{this}}<br>
+            {{/each}}
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+
+</center>

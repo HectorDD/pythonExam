@@ -1,0 +1,30 @@
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#header{
+  width:100%;
+  color:#FFFFFF;
+  text-align:center;
+  background:#ce1e28;
+  padding: 10px 0px 10px 0px;
+}
+
+
+table, tr, td {
+    border: 2px solid black;
+    padding:10px;
+
+    text-align: center;
+}
+
+.idbox{
+  border: 1px solid rgba(0, 0, 200, .2);
+  border-radius: 4px;
+  padding:7px;
+}
