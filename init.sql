@@ -60,9 +60,9 @@ INSERT INTO products_customer (customer_id,product_id) VALUES (1,1);
 INSERT INTO products_customer (customer_id,product_id) VALUES (1,2);
 INSERT INTO products_customer (customer_id,product_id) VALUES (1,5);
 
-drop table order_detail;
-drop table products_customer;
-drop table product;
-drop table order_;
-drop table customer;
+--drop table order_detail;
+--drop table products_customer;
+--drop table product;
+--drop table order_;
+--drop table customer;
 
