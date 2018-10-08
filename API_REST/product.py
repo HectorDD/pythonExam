@@ -10,8 +10,3 @@ class Product:
         result=dbConn.fetchall()
         self.name=result[0][0]
         self.unitPrice=result[0][1]
-"""
-product=Product("2")
-print(product.unitPrice)
-print(product.name)
-"""

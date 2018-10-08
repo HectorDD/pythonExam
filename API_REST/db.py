@@ -27,13 +27,7 @@ class DbConnection:
         return self._cursor.lastrowid
     def fetchall(self):
         return self.cursor.fetchall()
-"""      
-dbConn=DbConnection()
-sql = "INSERT INTO order_ (customer_id, delivery_address) VALUES (%s, %s)"
-val = ("1","77")
-dbConn.execute(sql,val)
-dbConn.commit()
-"""
+
         
 
 

@@ -14,7 +14,3 @@ class OrderList:
             for o in result:
                 self.orderList.append(Order(None,None,None,int(o[0])))
                 
-"""
-orderL=OrderList("2","2017-01-01","2018-12-01")
-print(orderL.orderList)
-"""

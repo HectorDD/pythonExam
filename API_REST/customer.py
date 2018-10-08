@@ -12,10 +12,5 @@ class Customer:
         self.products=[]
         for i in dbConn.fetchall():
             self.products.append(i[0])
-    def getOrders(self,initDate,finalDate):
-        pass
+
       
-"""
-customer=Customer("1")
-print(customer.products)
-"""
