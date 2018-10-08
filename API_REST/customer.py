@@ -13,4 +13,3 @@ class Customer:
         for i in dbConn.fetchall():
             self.products.append(i[0])
 
-      
